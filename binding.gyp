@@ -1,9 +1,9 @@
 {
   "targets": [
     {
-      "target_name": "addon",
+      "target_name": "nantest",
       "sources": [
-        "addon.cc",
+        "nantest.cc",
         "pi_est.cc",
         "sync.cc",
         "async.cc"

@@ -6,7 +6,7 @@
  * MIT License <https://github.com/nodejs/nan/blob/master/LICENSE.md>
  ********************************************************************/
 
-var addon = require('./build/Release/addon');
+var addon = require('./build/Release/nantest');
 var calculations = process.argv[2] || 100000000;
 
 function printResult(type, pi, ms) {
